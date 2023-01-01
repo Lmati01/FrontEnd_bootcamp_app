@@ -1,0 +1,106 @@
+.parent{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;    
+   justify-content: baseline;
+   position: relative;
+
+}
+form{
+    display: flex;
+    
+    flex-direction: column;
+    width: 70%;
+    height: 80%;
+}
+h6{
+    font-size: 1rem;
+}
+label{
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+a{
+    all: unset;
+}
+.first-one{
+    width: 45%;
+    height: 70%;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 7px;
+    z-index: 999;
+    margin-left: 30px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 5%;
+    backdrop-filter: blur(3px);    
+}
+input{
+    padding: 5px 0px;
+}
+.btn{
+    margin-top: 5px;
+    background-color: green;
+    border-radius: 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.foot{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    margin-left: 40%;
+    
+}
+
+.img{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+    border-radius: 7px;
+    width: 47%;
+    height: 90%;
+    background-color: green;
+    z-index: 1;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+   right: 5%;
+    
+    
+}
+h2{
+    
+font-family: 'Noto Nastaliq Urdu', serif;
+font-weight: 1000;
+}
+.immg{
+    width: 40%;
+    height: 50%;
+    background-image: url(/login.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0% auto;
+}
+
+#signup-btn{
+    border: 1px solid green;
+    background: green;
+    font-size: 18px;
+    color: white;
+    margin-top: 20px;
+    padding: 10px 50px;
+    cursor: pointer;
+    transition: .4s;
+}
